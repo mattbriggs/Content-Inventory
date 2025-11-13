@@ -183,7 +183,7 @@ venv\Scripts\activate
 Use the following command to download all required resources into your active virtual environment:
 
 ```bash
-python -m nltk.downloader punkt vader_lexicon averaged_perceptron_tagger wordnet omw-1.4 stopwords
+python3 -m nltk.downloader punkt vader_lexicon averaged_perceptron_tagger wordnet omw-1.4 stopwords
 ```
 
 This installs:
@@ -197,7 +197,7 @@ This installs:
 You can confirm that NLTK data has been downloaded correctly:
 
 ```bash
-python -m nltk.downloader -d ~/nltk_data list
+python3 -m nltk.downloader -d ~/nltk_data list
 ```
 
 This lists all installed datasets. You should see the above packages marked as “installed.”

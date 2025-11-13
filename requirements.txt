@@ -5,19 +5,10 @@ numpy==1.26.4
 prettytable==3.10.0
 tqdm==4.66.2
 PyYAML==6.0.1
-
-# Document parsing
 pdfminer.six==20231228
 python-docx==1.1.0
 lxml==5.3.0
-
-# Utility / logging
 colorama==0.4.6
-
 datasketch==1.6.5
 networkx==3.3
 matplotlib==3.9.0
-
-# (optional but useful)
-regex==2023.12.25
-six==1.16.0
